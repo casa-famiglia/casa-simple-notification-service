@@ -44,5 +44,5 @@ cargo watch -x "run -- --account RCN4XS53BDBHG76TDMIHUGSXGXRIBS3YKYCDYYK7NUERX6X
 - [ ] Notification services
   - [ ] APNS
   - [ ] Firebase Cloud Messaging
-- ???
-- (Non-)profit 🥹
+- [ ] ???
+- [ ] (Non-)profit 🥹
