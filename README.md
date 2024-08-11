@@ -4,7 +4,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/.assets/casa-sns.icon.svg">
     <source media="(prefers-color-scheme: light)" srcset=".github/.assets/casa-sns.icon.svg">
-    <img alt="We Are Sweet Logo" src="./github/.assets/was-logo.scheme-dark.svg" width="200">
+    <img alt="We Are Sweet Logo" src="./github/.assets/was-logo.scheme-dark.svg" width="100">
   </picture>
 </div>
 
