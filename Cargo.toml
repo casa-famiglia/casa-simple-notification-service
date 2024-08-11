@@ -1,0 +1,15 @@
+[package]
+name = "casa-simple-notification-service"
+version = "0.1.0"
+edition = "2021"
+authors = ["Leslie Owusu-Appiah <leslie@famiglia.casa>"]
+license = "AGPL-3.0"
+
+[dependencies]
+chrono = "0.4.38"
+clap = { version = "4.5.4", features = ["derive"] }
+reqwest = { version = "0.12.4", features = ["json"] }
+sea-orm = "0.12.15"
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.117"
+tokio = { version = "1.38.0", features = ["full"] }

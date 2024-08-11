@@ -1,0 +1,166 @@
+[
+	{
+		"name": "Algorand",
+		"network": "algorand",
+		"environment": "mainnet",
+		"description": "Algorand's public network",
+		"token": "ALGO",
+		"is_production": true,
+		"default": true,
+		"endpoints": [
+			{
+				"provider": "Algonode",
+				"daemon": "https://mainnet-api.algonode.cloud",
+				"indexer": "https://mainnet-idx.algonode.cloud",
+				"port": 443,
+				"is_public": true
+			}
+		],
+		"block_explorers": [
+			{
+				"name": "Allo",
+				"provider": "allo",
+				"domain": "https://allo.info",
+				"queries": {
+					"transaction": "tx",
+					"asset": "asset",
+					"account": "account",
+					"application": "application",
+					"block": "block"
+				}
+			},
+			{
+				"name": "Pera Explorer",
+				"provider": "pera",
+				"domain": "https://explorer.perawallet.app",
+				"queries": {
+					"transaction": "tx",
+					"asset": "asset",
+					"account": "address",
+					"application": "application",
+					"block": "block"
+				}
+			}
+		]
+	},
+	{
+		"name": "Algorand (Testnet)",
+		"network": "algorand",
+		"environment": "testnet",
+		"description": "Algorand's test network",
+		"token": "ALGO",
+		"is_production": false,
+		"default": false,
+		"endpoints": [
+			{
+				"provider": "Algonode",
+				"daemon": "https://testnet-api.algonode.cloud",
+				"indexer": "https://testnet-idx.algonode.cloud",
+				"port": 443,
+				"is_public": true
+			}
+		],
+		"block_explorers": [
+			{
+				"name": "Allo",
+				"provider": "allo",
+				"domain": "https://allo.info/testnet",
+				"queries": {
+					"transaction": "tx",
+					"asset": "asset",
+					"account": "account",
+					"application": "application",
+					"block": "block"
+				}
+			},
+			{
+				"name": "Pera Explorer",
+				"provider": "pera",
+				"domain": "https://testnet.explorer.perawallet.app",
+				"queries": {
+					"transaction": "tx",
+					"asset": "asset",
+					"account": "address",
+					"application": "application",
+					"block": "block"
+				}
+			}
+		]
+	},
+	{
+		"name": "Algorand (Betanet)",
+		"network": "algorand",
+		"environment": "betanet",
+		"description": "Algorand's beta network",
+		"token": "ALGO",
+		"is_production": false,
+		"default": false,
+		"endpoints": [
+			{
+				"provider": "Algonode",
+				"daemon": "https://betanet-api.algonode.cloud",
+				"indexer": "https://betanet-idx.algonode.cloud",
+				"port": 443,
+				"is_public": true
+			}
+		],
+		"block_explorers": [
+			{
+				"name": "Allo",
+				"provider": "allo",
+				"domain": "https://allo.info/betanet",
+				"queries": {
+					"transaction": "tx",
+					"asset": "asset",
+					"account": "account",
+					"application": "application",
+					"block": "block"
+				}
+			},
+			{
+				"name": "Pera Explorer",
+				"provider": "pera",
+				"domain": "https://betanet.explorer.perawallet.app",
+				"queries": {
+					"transaction": "tx",
+					"asset": "asset",
+					"account": "address",
+					"application": "application",
+					"block": "block"
+				}
+			}
+		]
+	},
+	{
+		"name": "Voi (Testnet)",
+		"network": "voi",
+		"environment": "testnet",
+		"description": "Voi's incentivised test network",
+		"token": "VOI",
+		"is_production": false,
+		"default": false,
+		"endpoints": [
+			{
+				"provider": "Voi Network",
+				"daemon": "https://testnet-api.voi.nodly.io",
+				"indexer": "https://testnet-idx.voi.nodly.io",
+				"port": 443,
+				"is_public": true
+			}
+		],
+		"block_explorers": [
+			{
+				"name": "Voi Observer",
+				"provider": "d13-collective",
+				"domain": "https://voi.observer/explorer",
+				"queries": {
+					"transaction": "transaction",
+					"asset": "assets",
+					"account": "account",
+					"application": "application",
+					"block": "block"
+				}
+			}
+		]
+	}
+]
